@@ -91,7 +91,7 @@
                     <div class="my-4 p-4">
                         <h1>Eu sou <b>Albert H. Nabarrete</b>, um Desenvolvedor Front-end</h1>
                         <p>
-                            Atuo neste setor há três anos e tenho uma verdadeira paixão por criar! Desde sempre, me interessei por tecnologia e, em 2021, comecei a estudar programação, incentivado por meu pai e um familiar que já trabalha na área. Minha jornada começou com a criação de templates, one pages e sites utilizando HTML e CSS. Atualmente, meu objetivo é desenvolver aplicações, Sites, Land Pages e Templates responsivos.
+                            Atuo na área de desenvolvimento web desde 2021, motivado por um forte interesse por tecnologia e inovação. Minha trajetória teve início com o incentivo de familiares da área de TI, e desde então venho me dedicando intensamente ao aprendizado e à prática da programação. Comecei desenvolvendo templates, one pages e sites estáticos utilizando HTML e CSS. Atualmente, concentro meus esforços na criação de aplicações web modernas, responsivas e otimizadas para diferentes dispositivos, com foco em desempenho, usabilidade e boas práticas de desenvolvimento.
                         </p>
                     </div>
                 </div>
@@ -100,13 +100,7 @@
                     <div class="my-4 p-4">
                         <h1><b>Objetivo</b></h1>
                         <p>
-                            Busco crescimento profissional na área de desenvolvimento web, visando me tornar um
-                            desenvolvedor full stack. Com três anos de experiência em front-end, estou aprofundando
-                            meus conhecimentos em React.js, Next.js e PHP, além de expandir minhas habilidades
-                            para o back-end com cursos de Java e Swift. Estou comprometido em aprender
-                            novas tecnologias, colaborar com outros profissionais e contribuir para projetos
-                            inovadores, sempre buscando evolução contínua e excelência no desenvolvimento de
-                            soluções digitais.
+                            Busco uma oportunidade como Desenvolvedor Front-end, com foco em tecnologias como React.js e Next.js, além de conhecimento em PHP e MySQL. Tenho interesse também em iniciar um estágio na área de desenvolvimento mobile, a fim de adquirir experiência prática com Swift e React Native, ampliando minhas habilidades e contribuindo com soluções inovadoras para a equipe.
                         </p>
                     </div>
                 </div>
@@ -125,38 +119,28 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="card mb-4">
+                    <div class="card experiencia mb-4">
                         <div class="card-header  align-items-center">
                             <i class="uil uil-brackets-curly mr-2 text-danger"></i>
-                            <h2 class="mb-0">Front-End</h2>
-                            <p class="ml-auto text-white"><b>3 anos</b> de experiência</p>
+                            <h2 class="mb-0">Desenvolvimento Front-End</h2>
                         </div>
                         <div class="card-body">
                             <div class="mb-3">
                                 <div class="d-flex justify-content-between">
                                     <span>HTML</span>
-                                    <span>100%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <b>3 anos</b>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <div class="d-flex justify-content-between">
                                     <span>CSS</span>
-                                    <span>95%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <b>3 anos</b>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <div class="d-flex justify-content-between">
                                     <span>JavaScript</span>
-                                    <span>50%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <b>3 anos</b>
                                 </div>
                             </div>
                             <br>
@@ -164,54 +148,29 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="card mb-4">
+                    <div class="card experiencia mb-4">
                         <div class="card-header align-items-center">
                             <i class="uil uil-server mr-2 text-danger"></i>
-                            <h2 class="mb-0">Back-End</h2>
-                            <p class="ml-auto"><b>1 ano</b> de experiência</p>
+                            <h2 class="mb-0">Desenvolvimento Back-End</h2>
                         </div>
                         <div class="card-body">
                             <div class="mb-3">
                                 <div class="d-flex justify-content-between">
                                     <span>PHP</span>
-                                    <span>40%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <b>2 anos</b>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <div class="d-flex justify-content-between">
-                                    <span>Java</span>
-                                    <span>30%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>Python</span>
-                                    <span>40%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>Swift iOS</span>
-                                    <span>35%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <span>Swift</span>
+                                    <b>5 meses</b>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="card mb-4">
+                    <div class="card experiencia mb-4">
                         <div class="card-header  align-items-center">
                             <i class="uil uil-brackets-curly mr-2 text-danger"></i>
                             <h2 class="mb-0">Framework</h2>
@@ -220,68 +179,43 @@
                             <div class="mb-3">
                                 <div class="d-flex justify-content-between">
                                     <span>Bootstrap</span>
-                                    <span>100%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <b>3 anos</b>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <div class="d-flex justify-content-between">
                                     <span>Tailwind</span>
-                                    <span>85%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <b>2 anos</b>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <div class="d-flex justify-content-between">
                                     <span>React.js</span>
-                                    <span>45%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <b>2 anos</b>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <div class="d-flex justify-content-between">
                                     <span>Next.js</span>
-                                    <span>55%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>Spring</span>
-                                    <span>20%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <b>1 ano</b>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="card mb-4">
+                    <div class="card experiencia mb-4">
                         <div class="card-header align-items-center">
                             <i class="uil uil-server mr-2 text-danger"></i>
                             <h2 class="mb-0">Banco de Dados</h2>
-                            <p class="ml-auto"><b>1 ano</b> de experiência</p>
                         </div>
                         <div class="card-body">
                             <div class="mb-3">
                                 <div class="d-flex justify-content-between">
                                     <span>MySQL</span>
-                                    <span>30%</span>
+                                    <b>1 ano</b>
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <br><br><br><br><br>
+                                <br><br>
                             </div>
                         </div>
                     </div>

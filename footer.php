@@ -3,10 +3,8 @@
                 <div class="px-3">
                     <div class="row align-items-center justify-content-center justify-content-md-between mb-4">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                            <ul class="list-unstyled contatenos p-0">
-                                <div class="text-start">
-                                    <h1><b>Informações</b></h1>
-                                </div>
+                            <ul class="list-unstyled contatenos text-center p-0">
+                                <h1><b>Informações</b></h1>
                                 <li class="mb-2">
                                     <a href="obrigado-whatsapp" class="text-decoration-none text-white">
                                         WhatsApp: (11) 96070-5306
@@ -18,7 +16,7 @@
                                     </a>
                                 </li>
                                 <li class="mb-2">
-                                    <a href="meucurriculo.pdf"class="btn btn-outline-secondary "  download="Currículo Canditato">
+                                    <a href="curriculo_albert.pdf"class="btn btn-outline-secondary "  download="Currículo Canditato">
                                         <i class="fa-solid fa-download"></i> Meu Currículo
                                     </a>
                                 </li>
@@ -29,7 +27,7 @@
                                 <div class="text-center">
                                     <h1><b>Menu</b></h1>
                                     <li class="mb-2">
-                                        <a href="#" class="text-decoration-none text-white">
+                                        <a href="./" class="text-decoration-none text-white">
                                             Home
                                         </a>
                                     </li>
@@ -53,7 +51,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                             <h1 class="text-center"><b>Rede Social</b></h1>
-                            <ul class="d-flex rede-social text-center">
+                            <ul class="d-flex rede-social d-flex justify-content-center">
                                 <?php 
                                     $redes_sociais = [
                                         ['fab fa-github', 'https://github.com/AlbertHatakeyama'],
