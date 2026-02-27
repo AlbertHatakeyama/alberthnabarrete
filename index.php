@@ -91,7 +91,7 @@
                     <div class="my-4 p-4">
                         <h1>Eu sou <b>Albert H. Nabarrete</b>, um Desenvolvedor Front-end</h1>
                         <p>
-                            Atuo neste setor há três anos e tenho uma verdadeira paixão por criar! Desde sempre, me interessei por tecnologia e, em 2021, comecei a estudar programação, incentivado por meu pai e um familiar que já trabalha na área. Minha jornada começou com a criação de templates, one pages e sites utilizando HTML e CSS. Atualmente, meu objetivo é desenvolver aplicações, Sites, Land Pages e Templates responsivos.
+                            Atuo na área de desenvolvimento web desde 2021, motivado por um forte interesse por tecnologia e inovação. Minha trajetória teve início com o incentivo de familiares da área de TI, e desde então venho me dedicando intensamente ao aprendizado e à prática da programação. Comecei desenvolvendo templates, one pages e sites estáticos utilizando HTML e CSS. Atualmente, concentro meus esforços na criação de aplicações web modernas, responsivas e otimizadas para diferentes dispositivos, com foco em desempenho, usabilidade e boas práticas de desenvolvimento.
                         </p>
                     </div>
                 </div>

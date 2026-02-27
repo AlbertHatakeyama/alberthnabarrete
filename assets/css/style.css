@@ -31,7 +31,7 @@
 }
 
 .navbar {
-    background-color: var(--background_color_1) !important;
+    background-color: var(--background_color_2) !important;
     font-family: var(--fontes-1) !important;
 
 }
@@ -153,9 +153,8 @@
 .sobremim h1{
     color: var(--color_1);
     font-family: var(--fontes-2);
-    font-size: 4rem !important;
+    font-size: 3rem !important;
     font-weight: 700 !important;
-    letter-spacing: 7px;
 }
 .lista li {
     list-style: none;
@@ -183,9 +182,6 @@
 }
 
 .sobremim-apresentacao p{
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-    line-height: 30px;
     font-family: var(--fontes-1);
     color: var(--color_1);
 }
@@ -203,7 +199,6 @@
     font-family: var(--fontes-2);
     font-size: 4rem !important;
     font-weight: 700 !important;
-    letter-spacing: 7px;
 }
 
 .projetos h3{
@@ -458,8 +453,14 @@
     font-size: 1.5rem !important;
 }
 
-.card-header b{
+.experiencia span{
+    color: var(--color_2);
+    font-family: var(--fontes-1);
+    font-weight: 800;
+}
+.experiencia b{
     color: var(--color_3);
+    font-family: var(--fontes-1);
 }
     
 
@@ -648,45 +649,87 @@
         right: 20px !important;
         bottom: 20px!important;
         outline: none;
+}
+/*--------------------------------------------------------*/
+
+@media (max-width: 575px) {
+    .sobremim h1{
+        font-size: 2rem;
     }
     
-    @media (max-width: 991px) {
-        .linguagens{
-            display: flex !important; 
-        }
+    .projetos h1{
+        font-size: 2rem;
+    }
+    .habilidades-titulo h1{
+        font-size: 2rem;
+    }
 
-        .linguagens img{
-            height: 35px;
-            padding: 3px;
-            font-size: 35px
-        }
-        #texto-digitado {
-            font-size: 3rem !important;
-        }
 
-        .habilidades-titulo h1{
-            font-size: 3rem !important;
-            letter-spacing: 0px;
-        }
-        .projetos h1{
-            font-size: 3rem !important;
-            letter-spacing: 0px;
-        }
-        
-        .overlay{
-            display: none !important;
-        }
+}
 
-        .habilidade-footer{
-            margin: 10px;
-            height: 37px;
-        }
+/*--------------------------------------------------------*/
 
-        .lista-nav-rodape.nav {
-            display: block;
-        }
+@media (min-width: 576px) and (max-width: 767px) {
+    
+}
+
+/*--------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) { 
+   .linguagens{
+        display: flex ; 
+    }
+
+    .linguagens img{
+        height: 35px;
+        padding: 3px;
+        font-size: 35px
+    }
+    #texto-digitado {
+        font-size: 3rem !important;
+    }
+
+    .habilidades-titulo h1{
+        font-size: 2.5rem ;
+        letter-spacing: 0px;
+    }
+    .projetos h1{
+        font-size: 3rem ;
+        letter-spacing: 0px;
     }
     
+    .overlay{
+        display: none ;
+    }
+
+    .habilidade-footer{
+        margin: 10px;
+        height: 37px;
+    }
+
+    .lista-nav-rodape.nav {
+        display: block;
+    }
+    
+}
+
+/*--------------------------------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/*--------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+/*--------------------------------------------------------*/
+
+@media (min-width: 1400px) and (max-width: 2560px) {
+
+}
     
     
 
