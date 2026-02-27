@@ -224,13 +224,216 @@
     font-size: 1rem !important;
 }
 
-.habilidades-titulo h1{
-    font-family: var(--fontes-2);
-    font-size: 3rem !important;
-    font-weight: 700;
-    letter-spacing: 7px;
+/* Título Glitch Futurista */
+    .glitch-text {
+        color: var(--color_1);
+        font-family: var(--fontes-1);
+        font-size: 3rem;
+        font-weight: 900;
+        letter-spacing: 5px;
+        position: relative;
+        text-shadow: 
+            0.05em 0 0 var(--color_3),
+            -0.05em -0.025em 0 var(--color_4);
+        animation: glitch 725ms infinite;
+    }
 
-}
+    .glitch-text::before,
+    .glitch-text::after {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .glitch-text::before {
+        color: var(--color_3);
+        z-index: -1;
+        animation: glitch-offset 0.3s infinite linear;
+    }
+
+    .glitch-text::after {
+        color: var(--color_4);
+        z-index: -2;
+        animation: glitch-offset 0.2s infinite linear reverse;
+    }
+
+    @keyframes glitch {
+        0%, 100% { transform: none; }
+        7% { transform: skew(-0.5deg, -0.9deg); }
+        10% { transform: none; }
+        27% { transform: none; }
+        30% { transform: skew(0.8deg, -0.1deg); }
+        35% { transform: none; }
+        52% { transform: none; }
+        55% { transform: skew(-1deg, 0.2deg); }
+        50% { transform: none; }
+        72% { transform: none; }
+        75% { transform: skew(0.4deg, 1deg); }
+        80% { transform: none; }
+        95% { transform: none; }
+        98% { transform: skew(0.2deg, 0.7deg); }
+    }
+
+    @keyframes glitch-offset {
+        0% { transform: translate(0); }
+        20% { transform: translate(-2px, 2px); }
+        40% { transform: translate(-2px, -2px); }
+        60% { transform: translate(2px, 2px); }
+        80% { transform: translate(2px, -2px); }
+        100% { transform: translate(0); }
+    }
+
+    .cyber-line {
+        width: 150px;
+        height: 2px;
+        background: linear-gradient(90deg, 
+            transparent, 
+            var(--color_3), 
+            var(--color_4), 
+            var(--color_3), 
+            transparent);
+        margin: 20px auto;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .cyber-line::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, 
+            transparent, 
+            var(--color_1), 
+            transparent);
+        animation: scan 2s linear infinite;
+    }
+
+    /* Cards Cibernéticos */
+    .cyber-card {
+        background: transparent;
+        border: 1px solid var(--color);
+        border-radius: 15px;
+        padding: 25px 15px;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        backdrop-filter: blur(5px);
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .cyber-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+            45deg,
+            transparent 0%,
+            var(--color_3) 50%,
+            transparent 100%
+        );
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: all 0.5s ease;
+        z-index: 0;
+    }
+
+    .cyber-card:hover::before {
+        opacity: 0.2;
+        transform: translateX(100%);
+    }
+
+    .cyber-card:hover {
+        border-color: var(--color_3);
+        box-shadow: 
+            0 0 10px var(--color_3),
+            0 0 20px var(--color_3),
+            inset 0 0 10px var(--color_3);
+        transform: scale(1.05);
+    }
+
+    .cyber-card-inner {
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cyber-card img {
+        width: 70px;
+        height: 70px;
+        filter: drop-shadow(0 0 5px var(--color_3));
+        transition: all 0.3s ease;
+        position: relative;
+        z-index: 2;
+    }
+
+    .cyber-card:hover img {
+        filter: drop-shadow(0 0 15px var(--color_3));
+        transform: scale(1.1) rotate(5deg);
+    }
+
+    .glow {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 0;
+        height: 0;
+        background: radial-gradient(circle, var(--color_3) 0%, transparent 70%);
+        opacity: 0;
+        transition: all 0.3s ease;
+        z-index: 1;
+    }
+
+    .cyber-card:hover .glow {
+        width: 150px;
+        height: 150px;
+        opacity: 0.3;
+    }
+
+    /* Grid Cibernético */
+    .cyber-grid {
+        position: relative;
+        height: 50px;
+        margin: 50px 0 20px;
+        overflow: hidden;
+    }
+
+    .grid-line {
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: linear-gradient(90deg, 
+            transparent, 
+            var(--color_3), 
+            var(--color_4), 
+            var(--color_3), 
+            transparent);
+        animation: grid-move 4s linear infinite;
+    }
+
+    .grid-line:nth-child(1) { top: 0; animation-delay: 0s; }
+    .grid-line:nth-child(2) { top: 25px; animation-delay: 1.3s; }
+    .grid-line:nth-child(3) { top: 50px; animation-delay: 2.6s; }
+
+    @keyframes grid-move {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
+    }
+
+    @keyframes scan {
+        0% { left: -100%; }
+        100% { left: 200%; }
+    }
 
 .link-projetos a{
     color: var(--color_2);

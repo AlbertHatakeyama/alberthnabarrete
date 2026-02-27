@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row"><!-- Primeiros 3 projetos -->
-            <div class="col-md-4 col-sm-6 link-projetos mb-2">
+            <div class="col-lg-4 col-md-6 col-12 col-sm-12 link-projetos mb-2">
                 <div class="card h-100">
                     <img src="assets/imagens/projetos/multiclad.png" class="img-fluid" alt="">
                     <div class="overlay">
@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <div class="card-body ">
-                        <h3 class="card-title">Projetos 1</h3>
+                        <h3 class="card-title">Projeto 1</h3>
                         <p class="card-text">
                             O site oferece uma interface funcional, com a opção de selecionar idiomas para com as informações das áreas que eles atuam, contatos da empresa.
                         </p>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 link-projetos mb-2">
+            <div class="col-lg-4 col-md-6 col-12 col-sm-12 link-projetos mb-2">
                 <div class="card h-100">
                     <img src="assets/imagens/projetos/naturalcalm.png" class="img-fluid" alt="">
                     <div class="overlay">
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <div class="card-body h-100">
-                        <h3 class="card-title">Projetos 2</h3>
+                        <h3 class="card-title">Projeto 2</h3>
                         <p class="card-text">
                             O site oferece uma interface funcional, é um site informativo que fala mais sobre tratamento de Fitocanabinoides
                         </p>
@@ -94,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 link-projetos mb-2">
+            <div class="col-lg-4 col-md-6 col-12 col-sm-12 link-projetos mb-2">
                 <div class="card h-100">
                     <img src="assets/imagens/projetos/alumivolt.png" class="img-fluid" alt="">
                         -<div class="overlay">
@@ -123,7 +123,7 @@
             </div>
         </div>
         <div id="projetos-restantes" class="row d-none link-projetos">
-            <div class="col-md-4 col-sm-6 link-projetos mb-2">
+            <div class="col-lg-4 col-md-6 col-12 col-sm-12 link-projetos mb-2">
                 <div class="card h-100">
                     <img src="assets/imagens/projetos/template1.png" class="img-fluid" alt="">
                        <div class="overlay">
@@ -150,7 +150,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 link-projetos mb-2">
+            <div class="col-lg-4 col-md-6 col-12 col-sm-12 link-projetos mb-2">
                 <div class="card h-100">
                     <img src="assets/imagens/projetos/template2.png" class="img-fluid" alt="">
                         <div class="overlay">
@@ -177,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 link-projetos mb-2">
+            <div class="col-lg-4 col-md-6 col-12 col-sm-12 link-projetos mb-2">
                 <div class="card h-100">
                     <img src="assets/imagens/projetos/template5.png" class="img-fluid" alt="">
                     <div class="overlay">
@@ -207,7 +207,7 @@
         </div>
     </div>
     <!-- Botão "Ver Mais" -->
-    <div class="col-md-12 text-center mt-3">
+    <div class="col-md-12 text-center my-4">
         <button id="ver-mais-menos" class="btn button ver-mais">Ver Mais</button>
     </div>
 </section>

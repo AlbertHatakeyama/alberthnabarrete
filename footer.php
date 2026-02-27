@@ -18,7 +18,7 @@
                                     </a>
                                 </li>
                                 <li class="mb-2">
-                                    <a href="meucurriculo.pdf"class="btn btn-outline-secondary "  download="Currículo Canditato">
+                                    <a href="meucurriculo.pdf"class="btn btn-outline-secondary "  target="_blank">
                                         <i class="fa-solid fa-download"></i> Meu Currículo
                                     </a>
                                 </li>
@@ -57,8 +57,8 @@
                                 <?php 
                                     $redes_sociais = [
                                         ['fab fa-github', 'https://github.com/AlbertHatakeyama'],
-                                        ['fab fa-linkedin', 'https://www.linkedin.com/in/albert-h-75495622a/'],
-                                        ['fab fa-instagram', 'https://www.instagram.com/albert_nabarrete20/#'],
+                                        ['fab fa-linkedin', 'https://www.linkedin.com/in/albert1000/'],
+                                        ['fab fa-instagram', 'https://www.instagram.com/albert_nabarrete20/'],
                                         ['fab fa-facebook', 'https://www.facebook.com/albert.nabarrete'],
                                         
                                     ];

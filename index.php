@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-lg-6 col-sm-12 col-12">
-                    <img src="assets/imagens/img-portfolio1" alt="" class="img-fluid bordas-arredondadas">
+                    <img src="assets/imagens/foto-nova.png" alt="" class="img-fluid bordas-arredondadas">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12   sobremim-apresentacao">
                     <div class="my-4 p-4">
@@ -100,13 +100,7 @@
                     <div class="my-4 p-4">
                         <h1><b>Objetivo</b></h1>
                         <p>
-                            Busco crescimento profissional na área de desenvolvimento web, visando me tornar um
-                            desenvolvedor full stack. Com três anos de experiência em front-end, estou aprofundando
-                            meus conhecimentos em React.js, Next.js e PHP, além de expandir minhas habilidades
-                            para o back-end com cursos de Java e Swift. Estou comprometido em aprender
-                            novas tecnologias, colaborar com outros profissionais e contribuir para projetos
-                            inovadores, sempre buscando evolução contínua e excelência no desenvolvimento de
-                            soluções digitais.
+                            Desenvolvedor Front-end com experiência na criação de interfaces dinâmicas e otimizadas utilizando JavaScript, PHP e frameworks modernos como React e Next.js. Tenho sólido domínio em arquitetura de componentes e versionamento com Git. Atualmente, foco minha transição para o perfil Full Stack, aprofundando conhecimentos em Java e Swift para entregar soluções ponta a ponta — da interface à estrutura do servidor. Busco oportunidades que valorizem a evolução técnica e a entrega de produtos digitais de alto impacto.
                         </p>
                     </div>
                 </div>
@@ -116,173 +110,157 @@
     <?php 
         include("projeto.php");
     ?>
-    <section id="habilidades">
+    <section class="bg-sobre-mim py-5" id="habilidades">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="text-center habilidades-titulo my-5">
-                        <h1>Habilidades</h1>
+                        <h1 class="glitch-text" data-text="Tecnologias">Tecnologias</h1>
+                        <div class="cyber-line"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="card mb-4">
-                        <div class="card-header  align-items-center">
-                            <i class="uil uil-brackets-curly mr-2 text-danger"></i>
-                            <h2 class="mb-0">Front-End</h2>
-                            <p class="ml-auto text-white"><b>3 anos</b> de experiência</p>
-                        </div>
-                        <div class="card-body">
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>HTML</span>
-                                    <span>100%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>CSS</span>
-                                    <span>95%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>JavaScript</span>
-                                    <span>50%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <br>
+            </div>
+
+            <!-- Cards de Tecnologias - Apenas Imagens -->
+            <div class="row justify-content-center">
+                <!-- HTML -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" 
+                                alt="HTML5">
+                            <div class="glow"></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="card mb-4">
-                        <div class="card-header align-items-center">
-                            <i class="uil uil-server mr-2 text-danger"></i>
-                            <h2 class="mb-0">Back-End</h2>
-                            <p class="ml-auto"><b>1 ano</b> de experiência</p>
-                        </div>
-                        <div class="card-body">
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>PHP</span>
-                                    <span>40%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>Java</span>
-                                    <span>30%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>Python</span>
-                                    <span>40%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>Swift iOS</span>
-                                    <span>35%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
+
+                <!-- CSS -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" 
+                                alt="CSS3">
+                            <div class="glow"></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="card mb-4">
-                        <div class="card-header  align-items-center">
-                            <i class="uil uil-brackets-curly mr-2 text-danger"></i>
-                            <h2 class="mb-0">Framework</h2>
-                        </div>
-                        <div class="card-body">
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>Bootstrap</span>
-                                    <span>100%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>Tailwind</span>
-                                    <span>85%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>React.js</span>
-                                    <span>45%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>Next.js</span>
-                                    <span>55%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>Spring</span>
-                                    <span>20%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
+
+                <!-- JavaScript -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+                                alt="JavaScript">
+                            <div class="glow"></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="card mb-4">
-                        <div class="card-header align-items-center">
-                            <i class="uil uil-server mr-2 text-danger"></i>
-                            <h2 class="mb-0">Banco de Dados</h2>
-                            <p class="ml-auto"><b>1 ano</b> de experiência</p>
+
+                <!-- React.js -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
+                                alt="React.js">
+                            <div class="glow"></div>
                         </div>
-                        <div class="card-body">
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <span>MySQL</span>
-                                    <span>30%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <br><br><br><br><br>
-                            </div>
+                    </div>
+                </div>
+
+                <!-- Next.js -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" 
+                                alt="Next.js">
+                            <div class="glow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bootstrap -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" 
+                                alt="Bootstrap">
+                            <div class="glow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tailwind -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <i class="devicon-tailwindcss-original colored display-3"></i>
+                            <div class="glow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PHP -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" 
+                                alt="PHP">
+                            <div class="glow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MySQL -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" 
+                                alt="MySQL">
+                            <div class="glow"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Java -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" 
+                                alt="Java">
+                            <div class="glow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spring Boot -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" 
+                                alt="Spring Boot">
+                            <div class="glow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Swift -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" 
+                                alt="Swift">
+                            <div class="glow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Git -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                    <div class="cyber-card">
+                        <div class="cyber-card-inner">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" 
+                                alt="Git">
+                            <div class="glow"></div>
                         </div>
                     </div>
                 </div>
